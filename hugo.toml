@@ -1,0 +1,49 @@
+baseURL = "https://example.com/"
+locale = "en-US"
+title = "Ralph Fernando"
+
+[params]
+  description = "Ralph Fernando personal website"
+  name = "Ralph Fernando"
+  position = "Economics PhD Student"
+  institution = "Indiana University"
+  email = "fernanra@iu.edu"
+  profileImage = "images/profile-placeholder.jpg"
+  cvFile = "files/ralph-cv-oct-2026.pdf"
+  office = "WY 235"
+  address = "100 S Woodlawn Ave, Bloomington, IN 47405"
+  phone = "+1 219-670 5926"
+  themeStyle = "modern"
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+
+  [[menus.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 20
+
+  [[menus.main]]
+    name = "Teaching"
+    pageRef = "/teaching"
+    weight = 30
+
+  [[menus.main]]
+    name = "CV"
+    pageRef = "/cv"
+    weight = 40
+
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 50
+
+[params.links]
+  googleScholar = ""
+  github = ""
+  orcid = ""
+  linkedin = ""
+  institutionalProfile = ""
